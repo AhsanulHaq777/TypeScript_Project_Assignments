@@ -1,0 +1,27 @@
+{
+  "name": "number_guessing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhsanulHaq777/TypeScript_Project_Assignments.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhsanulHaq777/TypeScript_Project_Assignments/issues"
+  },
+  "homepage": "https://github.com/AhsanulHaq777/TypeScript_Project_Assignments#readme",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "inquirer": "^9.1.4"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3"
+  }
+}
