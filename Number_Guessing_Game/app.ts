@@ -1,5 +1,11 @@
+#! /usr/bin/env node
 import inquirer from 'inquirer';
 import chalk from 'chalk';
+import showBanner from 'node-banner';
+
+(async () => {
+    await showBanner('Guessing Game', 'Guess a number','green');
+})();
 
 let input = true;
 async function guessingNumber(){
@@ -35,4 +41,7 @@ while(input){
     
 }
 
-guessingNumber();
+setTimeout(() => {
+    guessingNumber()
+},1000);
+

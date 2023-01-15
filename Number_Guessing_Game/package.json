@@ -1,5 +1,5 @@
 {
-  "name": "number_guessing",
+  "name": "@ahsan.haq/number_guessing_game",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -12,14 +12,17 @@
     "url": "git+https://github.com/AhsanulHaq777/TypeScript_Project_Assignments.git"
   },
   "author": "",
+  "bin": "./app.js",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AhsanulHaq777/TypeScript_Project_Assignments/issues"
   },
   "homepage": "https://github.com/AhsanulHaq777/TypeScript_Project_Assignments#readme",
   "dependencies": {
+    "badges": "^4.27.0",
     "chalk": "^5.2.0",
-    "inquirer": "^9.1.4"
+    "inquirer": "^9.1.4",
+    "node-banner": "^1.4.0"
   },
   "devDependencies": {
     "@types/inquirer": "^9.0.3"
